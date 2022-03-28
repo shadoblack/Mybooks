@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { FormularioRegistroComponent } from './component/formulario-registro/formulario-registro.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { PaginaPerfilComponent } from './pages/pagina-perfil/pagina-perfil.component';
+import { LibrosComponent } from './pages/libros/libros.component';
+import { PipeMayusPipe } from './pipes/pipe-mayus.pipe';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,9 @@ import { PaginaPerfilComponent } from './pages/pagina-perfil/pagina-perfil.compo
     FormularioRegistroComponent,
     RegistroComponent,
     PaginaPerfilComponent,
+    LibrosComponent,
+    PipeMayusPipe,
+    
     
   ],
   imports: [
